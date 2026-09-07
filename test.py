@@ -4,7 +4,7 @@ import cv2
 
 def main():
     # Load your trained model
-    model = YOLO(r"runs\detect\train5\weights\best.pt")
+    model = YOLO(r"weights\best.pt")
 
     # Open webcam
     cap = cv2.VideoCapture(0)
@@ -16,7 +16,7 @@ def main():
             break
 
         # Run YOLO on the webcam frame
-        results = model(frame, conf=0.80)
+        results = model(frame, conf=0.75)
 
         # Draw bounding boxes
         annotated_frame = results[0].plot()
