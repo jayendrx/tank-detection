@@ -24,18 +24,7 @@ tank-detection/
 └── README.md
 ```
 
-## Dataset
 
-This project uses the [**Yolocodemuti View Tank Dataset YOLO26**](https://platform.ultralytics.com/kalpak-ultralytics/datasets/yolocodemuti-view-tank-dataset-yolo26) hosted on the Ultralytics Platform by **Kalpak Ultralytics**.
-
-The dataset contains aerial and ground-level imagery of military tanks in various combat and training environments, annotated for object detection to support tactical recognition. It includes multi-view perspectives to improve model robustness across different angles and scenarios.
-
-| Detail      | Value                                      |
-| ----------- | ------------------------------------------ |
-| Platform    | [Ultralytics Platform](https://platform.ultralytics.com) |
-| Author      | Kalpak Ultralytics                         |
-| Task        | Object Detection                           |
-| Format      | YOLO (NDJSON)                              |
 
 ## Requirements
 
