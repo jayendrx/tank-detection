@@ -38,6 +38,7 @@ desktop.ini
 
 # YOLO / Model weights
 *.pt
+!weights/best.pt
 *.onnx
 *.engine
 *.mlmodel
