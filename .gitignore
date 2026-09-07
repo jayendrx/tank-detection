@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+
+# OS files
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# YOLO / Model weights
+*.pt
+*.onnx
+*.engine
+*.mlmodel
+*.tflite
+*.pb
+*.torchscript
+
+# Training runs
+runs/
+
+# Datasets (large files, manage separately)
+datasets/
+*.ndjson
+
+# Logs
+*.log
